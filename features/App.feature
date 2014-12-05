@@ -1,3 +1,4 @@
+@hi
 Feature: The Cards Against Humanity Home Page
 
   Scenario: Viewing the Home Page
@@ -7,4 +8,4 @@ Feature: The Cards Against Humanity Home Page
     And player "2" joins the first game available
     And player "3" joins the first game available
     And player "4" joins the first game available
-    Then there should be "4" players in the game according to player "1"
+    Then there should be "3" players in the game according to player "1"
